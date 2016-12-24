@@ -38,10 +38,12 @@
   </head>
   <body>
     <div id="container"></div>
-    
+    <script type="text/javascript" src="questions.js"></script>
     <script type="text/javascript" src="js/jquery-3.1.0.slim.min.js"></script>
     <script>
       $(document).ready(function(){
+        var the_order = (order && order.length > 0) ? order : questions;
+        
         for (var i in order){
           var num = order[i];
           $('#container').append('<div id="Q'+num+'" class="question></div>');
@@ -49,7 +51,7 @@
           for (var a in questions.num.answers){
             var id  = num.toString() + a;
             var img = 'img/'+a.content;
-            $('#A'+num).append('<div id="" style="background-image:url('+img+')"></div>');
+            $('#A'+num).append('<div id="'+id+'" style="background-image:url('+img+')"></div>');
             $('#A'+num).append('<p>file: '+a.content+'</p>');
             for (var val in a.points){
               $('#A'+num).append('<p>+'+a.points.val+' '+val+'</p>');
