@@ -1,6 +1,62 @@
 <html>
   <head>
+    <title>quiz: prototype</title>
+    <style>
+      html, body{
+        font-family:monospace;
+      }
+      .u-hide{
+        display:none;
+      }
+      .u-show{
+        display:block;
+      }
+      .row {
+        display:block;
+        clear:both;
+      }
+
+      label, input, textarea {
+        display:block;
+        margin:10px;
+        padding:0;
+      }
+
+      .answer {
+        display:inline-block;
+        width:300px;
+        margin: 2px;
+      }
+      .square {
+        display:block;
+        width:300px;
+        height:300px;
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
+    <div id="container"></div>
+    
+    <script type="text/javascript" src="js/jquery-3.1.0.slim.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        for (var i in order){
+          var num = order[i];
+          $('#container').append('<div id="Q'+num+'" class="question></div>');
+          $('#Q'+num).append('<h2>'+questions.q.question+'</h2><div id="A'+num+'" class="answer"></div>');
+          for (var a in questions.q.answers){
+            var id  = num.toString() + a.answer.toString();
+            var img = 'img/'+a.content;
+            $('#A'+num).append('<div id="" style="background-image:url('+img+')"></div>');
+            $('#A'+num).append('<p>file: '+a.content+'</p>');
+            for (var name,value in a.points){
+              $('#A'+num).append('<p>+'+value+' '+name+'</p>');
+            }
+          }
+        }
+      })
+    </script>
   </body>
 </html>
