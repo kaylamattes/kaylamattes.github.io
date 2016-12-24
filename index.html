@@ -43,9 +43,9 @@
     <script>
       $(document).ready(function(){
         var the_order = (order && order.length > 0) ? order : questions;
-        
-        for (var i in order){
-          var num = order[i];
+        for (var i in the_order){
+          var num = the_order[i];
+          console.log(i, num);
           $('#container').append('<div id="Q'+num+'" class="question></div>');
           $('#Q'+num).append('<h2>'+questions.num.question+'</h2><div id="A'+num+'" class="answer"></div>');
           for (var a in questions.num.answers){
