@@ -1,36 +1,40 @@
 var order = [];
 
 var questions = {
-  '1' : {
+  'steve' : {
     'question': 'how do you want to be remembered?',
     'answers' : {
       'a' : {
         'content': 'steve5.jpg',
         'points' : {
             'default' : 0,
+            'humble' : 1,
         },
       },
       'b' : {
         'content': 'steve8.png',
         'points' : {
             'default' : 0,
+            'humble' : 4,
         },
       },
       'c' : {
         'content': 'steve3.jpg',
         'points' : {
             'default' : 0,
+            'humble' : 2,
         },
       },
       'd' : {
         'content': 'steve12.jpg',
         'points' : {
             'default' : 0,
+            'humble' : 3,
         },
       },
     },
   },
-  '2' : {
+  'bugs' : {
     'question': 'pretend it\'s candy',
     'answers' : {
       'a' : {
@@ -59,7 +63,7 @@ var questions = {
       },
     },
   },
-  '3' : {
+  'tourism' : {
     'question': 'which activity seems least enjoyable?',
     'answers' : {
       'a' : {
@@ -88,7 +92,7 @@ var questions = {
       },
     },
   },
-  '4' : {
+  'yoga' : {
     'question': 'who is the best poser?',
     'answers' : {
       'a' : {
@@ -117,8 +121,8 @@ var questions = {
       },
     },
   },
-  '5' : {
-    'question': 'what\'s your current outlook on the future?',
+  'protest' : {
+    'question': 'what is your current outlook on the future?',
     'answers' : {
       'a' : {
         'content': 'protest1.jpg',
@@ -146,7 +150,7 @@ var questions = {
       },
     },
   },
-  '6' : {
+  'cookie' : {
     'question': 'which candidate is most qualified to lead a nation?',
     'answers' : {
       'a' : {
