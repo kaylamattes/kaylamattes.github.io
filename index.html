@@ -45,7 +45,12 @@
         var the_order = (order && order.length > 0) ? order : questions;
         console.log(the_order, the_order[0]);
         for (var i in the_order){
-          var num = the_order[i];
+          var num;
+          if (Array.isArray(the_order)){
+            num = the_order[i];
+          } else {
+            num = i;
+          }
           console.log(i, num);
           $('#container').append('<div id="Q'+num+'" class="question></div>');
           $('#Q'+num).append('<h2>'+questions.num.question+'</h2><div id="A'+num+'" class="answer"></div>');
