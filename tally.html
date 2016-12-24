@@ -59,7 +59,11 @@
           max = (tally[m] > max) ? tally[m] : max;
         }
         for (var t in tally){
-          $('#tally').append('<tr><td>'+t+'</td><td>'+tally[t]+'</td><td>'+(max-tally[t])+'</td></tr>');
+          var highlight = '';
+          if(tally[t] < max){
+            highlight = 'class="highlight"';
+          }
+          $('#tally').append('<tr '+highlight+'><td>'+t+'</td><td>'+tally[t]+'</td><td>'+(max-tally[t])+'</td></tr>');
         }
       })
     </script>
