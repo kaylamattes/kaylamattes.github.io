@@ -49,7 +49,7 @@
           if (Array.isArray(the_order)){
             num = the_order[i];
           } else {
-            num = i;
+            num = i.toString();
           }
           console.log(i, num);
           $('#container').append('<div id="Q'+num+'" class="question></div>');
