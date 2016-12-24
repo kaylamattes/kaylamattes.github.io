@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>quiz: tally</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Tally</h1>
+      <p>All totals should be equal in final quiz</p>
+      <table>
+        <thead>
+          <tr>
+            <td>quality</td>
+            <td>total</td>
+            <td>remain</td>
+          </tr>
+        </thead>
+        <tbody id="tally"></tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="questions.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.0.slim.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var tally = [];
+        var max = 0;
+        var the_order = (order && order.length > 0) ? order : questions;
+        for (var i in the_order){
+          var id;
+          if (Array.isArray(the_order)){
+            id = the_order[i];
+          } else {
+            id = i;
+          }
+          var subtally = {};
+          var Q = questions[id];
+          for (var a in Q.answers){
+            var A = Q.answers[a];
+            for (var val in A.points){
+              var P = A.points
+              if(subtally[val]){
+                subtally[val] = (subtally[val] > P[val]) ? subtally[val] : P[val];
+              } else {
+                subtally[val] = P[val];
+              }
+            }
+          }
+          console.log(subtally);
+          for (var val in subtally){
+            if(tally[val]){
+              tally[val] += Math.abs(subtally[val]);
+            } else {
+              tally[val] = Math.abs(subtally[val]);
+            }
+          }
+        }
+        for (var m in tally){
+          // console.log(tally[m]);
+          max = (tally[m] > max) ? tally[m] : max;
+        }
+        for (var t in tally){
+          $('#tally').append('<tr><td>'+t+'</td><td>'+tally[t]+'</td><td>'+(max-tally[t])+'</td></tr>');
+        }
+      })
+    </script>
+  </body>
+</html>

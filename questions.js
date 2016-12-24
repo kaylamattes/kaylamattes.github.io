@@ -1,4 +1,6 @@
-var order = [];
+var order = [
+  'steve','bugs'
+];
 
 var questions = {
   'steve' : {
@@ -7,46 +9,51 @@ var questions = {
       'a' : {
         'content': 'steve5.jpg',
         'points' : {
-            'default' : 0,
-            'humble' : 1,
+            'default'  : 0,
+            'red' : 1,
+            'sharp' : 2,
         },
       },
       'b' : {
         'content': 'steve8.png',
         'points' : {
             'default' : 0,
-            'humble' : 4,
+            'yellow'  : 1,
         },
       },
       'c' : {
         'content': 'steve3.jpg',
         'points' : {
             'default' : 0,
-            'humble' : 2,
+            'black' : 1,
+            'red' : 1,
+            'sharp' : 1,
         },
       },
       'd' : {
         'content': 'steve12.jpg',
         'points' : {
             'default' : 0,
-            'humble' : 3,
+            'blue' : 1,
         },
       },
     },
   },
   'bugs' : {
-    'question': 'pretend it\'s candy',
+    'question': 'pretend it is candy',
     'answers' : {
       'a' : {
         'content': 'bug1.jpg',
         'points' : {
             'default' : 0,
+            'white' : 1,
         },
       },
       'b' : {
         'content': 'bug6.jpg',
         'points' : {
             'default' : 0,
+            'red' : 1,
         },
       },
       'c' : {
