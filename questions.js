@@ -1,5 +1,5 @@
 var order = [
-  'steve','bugs'
+//   'steve','bugs'
 ];
 
 var questions = {
@@ -40,7 +40,7 @@ var questions = {
     },
   },
   'bugs' : {
-    'question': 'pretend it is candy',
+    'question': 'which one would you eat?',
     'answers' : {
       'a' : {
         'content': 'bug1.jpg',
@@ -150,7 +150,7 @@ var questions = {
         },
       },
       'd' : {
-        'content': 'protest5.jpg',
+        'content': 'protest7.jpg',
         'points' : {
             'default' : 0,
         },
@@ -158,7 +158,7 @@ var questions = {
     },
   },
   'cookie' : {
-    'question': 'which candidate is most qualified to lead a nation?',
+    'question': 'which candidate should lead the nation?',
     'answers' : {
       'a' : {
         'content': 'cookie1.jpg',
@@ -180,6 +180,93 @@ var questions = {
       },
       'd' : {
         'content': 'cookie4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'fruit' : {
+    'question': 'which one actually tastes like fruit?',
+    'answers' : {
+      'a' : {
+        'content': 'fruit8.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'fruit2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'fruit9.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'fruit1.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'worst' : {
+    'question': 'what is the worst?',
+    'answers' : {
+      'a' : {
+        'content': 'worst1.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'worst2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'worst3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'worst4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'hack' : {
+    'question': 'which lifehack is most useful to you?',
+    'answers' : {
+      'a' : {
+        'content': 'lifehack3.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'lifehack1.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'lifehack5.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'lifehack6.jpg',
         'points' : {
             'default' : 0,
         },
