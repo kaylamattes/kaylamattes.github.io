@@ -260,13 +260,13 @@ var questions = {
         },
       },
       'c' : {
-        'content': 'career3.jpg',
+        'content': 'career4.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'd' : {
-        'content': 'career4.jpg',
+        'content': 'career3.jpg',
         'points' : {
             'default' : 0,
         },
