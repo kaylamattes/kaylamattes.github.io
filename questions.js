@@ -244,7 +244,7 @@ var questions = {
       },
     },
   },
-              'game' : {
+              'career' : {
     'question': 'when you were a kid you wanted to grow up to be:',
     'answers' : {
       'a' : {
