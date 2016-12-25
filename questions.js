@@ -225,13 +225,13 @@ var questions = {
         },
       },
       'b' : {
-        'content': 'game2.jpg',
+        'content': 'game5.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'c' : {
-        'content': 'game5.jpg',
+        'content': 'game2.jpg',
         'points' : {
             'default' : 0,
         },
