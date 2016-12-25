@@ -244,4 +244,33 @@ var questions = {
       },
     },
   },
+              'game' : {
+    'question': 'what did you want to be when you grew up?',
+    'answers' : {
+      'a' : {
+        'content': 'career1.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'career2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'career3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'career4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
 }
