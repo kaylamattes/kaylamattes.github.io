@@ -1,5 +1,5 @@
 var order = [
-//   'steve','bugs'
+//   'steve','bugs','cookie'
 ];
 
 var questions = {
@@ -182,6 +182,7 @@ var questions = {
         'content': 'cookie4.jpg',
         'points' : {
             'default' : 0,
+            'yellow' : 1,
         },
       },
     },
