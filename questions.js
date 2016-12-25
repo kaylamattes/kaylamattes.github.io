@@ -186,4 +186,33 @@ var questions = {
       },
     },
   },
-}
+    
+  'election' : {
+    'question': 'where were you on election night?',
+    'answers' : {
+      'a' : {
+        'content': 'election1.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'election2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'election3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'election4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
