@@ -260,7 +260,7 @@ var questions = {
         },
       },
       'c' : {
-        'content': 'career9.jpg',
+        'content': 'career11.jpg',
         'points' : {
             'default' : 0,
         },
