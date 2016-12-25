@@ -248,7 +248,7 @@ var questions = {
     'question': 'when you were a kid you wanted to grow up to be:',
     'answers' : {
       'a' : {
-        'content': 'career1.jpg',
+        'content': 'career5.jpg',
         'points' : {
             'default' : 0,
         },
