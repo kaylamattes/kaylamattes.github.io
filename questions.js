@@ -313,7 +313,7 @@ var questions = {
         },
       },
       'b' : {
-        'content': 'mannequin2.jpg',
+        'content': 'mannequin5.jpg',
         'points' : {
             'default' : 0,
         },
