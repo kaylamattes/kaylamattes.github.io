@@ -266,7 +266,7 @@ var questions = {
         },
       },
       'd' : {
-        'content': 'career3.jpg',
+        'content': 'career10.jpg',
         'points' : {
             'default' : 0,
         },
