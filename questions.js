@@ -1,5 +1,5 @@
 var order = [
-  //'steve','bugs'
+  'steve','bugs'
 ];
 
 var questions = {
@@ -186,7 +186,6 @@ var questions = {
       },
     },
   },
-    
   'election' : {
     'question': 'where were you on election night?',
     'answers' : {
@@ -215,4 +214,4 @@ var questions = {
         },
       },
     },
-  }
+  },
