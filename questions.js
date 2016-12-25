@@ -332,4 +332,33 @@ var questions = {
       },
     },
   },
+              'pattern' : {
+    'question': 'Pick a pattern.',
+    'answers' : {
+      'a' : {
+        'content': 'pattern1.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'pattern2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'pattern3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'pattern4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
 }
