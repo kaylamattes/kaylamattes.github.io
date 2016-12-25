@@ -254,13 +254,13 @@ var questions = {
         },
       },
       'b' : {
-        'content': 'career2.jpg',
+        'content': 'career6.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'c' : {
-        'content': 'career4.jpg',
+        'content': 'career7.jpg',
         'points' : {
             'default' : 0,
         },
