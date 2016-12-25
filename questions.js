@@ -269,6 +269,35 @@ var questions = {
         'content': 'career10.jpg',
         'points' : {
             'default' : 0,
+                  },
+      },
+    },
+  },
+              'home' : {
+    'question': 'choose your new home:',
+    'answers' : {
+      'a' : {
+        'content': 'home1.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'home2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'home3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'home4.jpg',
+        'points' : {
+            'default' : 0,
         },
       },
     },
