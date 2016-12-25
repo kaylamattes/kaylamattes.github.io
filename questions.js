@@ -215,4 +215,33 @@ var questions = {
       },
     },
   },
+    'game' : {
+    'question': 'which game show attracts the most annoying contestants?',
+    'answers' : {
+      'a' : {
+        'content': 'game1.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'game2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'game3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'game4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
 }
