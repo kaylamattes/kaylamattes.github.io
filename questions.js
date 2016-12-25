@@ -248,13 +248,13 @@ var questions = {
     'question': 'when you were a kid you wanted to grow up to be:',
     'answers' : {
       'a' : {
-        'content': 'career5.jpg',
+        'content': 'career6.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'b' : {
-        'content': 'career6.jpg',
+        'content': 'career5.jpg',
         'points' : {
             'default' : 0,
         },
