@@ -1,5 +1,5 @@
 var order = [
-  'steve','bugs'
+  //'steve','bugs'
 ];
 
 var questions = {
