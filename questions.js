@@ -245,7 +245,7 @@ var questions = {
     },
   },
               'game' : {
-    'question': 'what did you want to be when you grew up?',
+    'question': 'when you were a kid you wanted to grow up to be:',
     'answers' : {
       'a' : {
         'content': 'career1.jpg',
