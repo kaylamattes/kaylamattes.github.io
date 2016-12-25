@@ -298,6 +298,36 @@ var questions = {
         'content': 'home4.jpg',
         'points' : {
             'default' : 0,
+                  
+        },
+      },
+    },
+  },
+              'mannequin' : {
+    'question': 'How did you feel the day after the election?',
+    'answers' : {
+      'a' : {
+        'content': 'mannequin.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'mannequin2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'mannequin3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'mannequin4.jpg',
+        'points' : {
+            'default' : 0,
         },
       },
     },
