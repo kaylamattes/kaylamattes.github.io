@@ -190,7 +190,7 @@ var questions = {
     'question': 'where were you on election night?',
     'answers' : {
       'a' : {
-        'content': 'election1.jpg',
+        'content': 'election5.jpg',
         'points' : {
           'default' : 0,
         },
