@@ -269,7 +269,7 @@ var questions = {
         'content': 'career10.jpg',
         'points' : {
             'default' : 0,
-                  },
+        },
       },
     },
   },
