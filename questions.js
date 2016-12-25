@@ -138,7 +138,7 @@ var questions = {
         },
       },
       'b' : {
-        'content': 'protest6.jpg',
+        'content': 'protest23.jpg',
         'points' : {
             'default' : 0,
         },
