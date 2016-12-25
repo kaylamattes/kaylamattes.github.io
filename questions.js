@@ -231,7 +231,7 @@ var questions = {
         },
       },
       'c' : {
-        'content': 'game3.jpg',
+        'content': 'game5.jpg',
         'points' : {
             'default' : 0,
         },
