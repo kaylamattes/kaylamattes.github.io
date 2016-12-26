@@ -298,7 +298,7 @@ var questions = {
         'content': 'home4.jpg',
         'points' : {
             'default' : 0,
-                  
+
         },
       },
     },
@@ -357,6 +357,93 @@ var questions = {
         'content': 'pattern4.jpg',
         'points' : {
             'default' : 0,
+          },
+        },
+      },
+    },
+    'phenomena' : {
+      'question': 'Which phenomena do you want to experience?',
+      'answers' : {
+        'a' : {
+          'content': 'phenomena.jpg',
+          'points' : {
+              'default' : 0,
+          },
+        },
+        'b' : {
+          'content': 'phenomena2.jpg',
+          'points' : {
+              'default' : 0,
+          },
+        },
+        'c' : {
+          'content': 'phenomena3.jpg',
+          'points' : {
+              'default' : 0,
+          },
+        },
+        'd' : {
+          'content': 'phenomena4.jpg',
+          'points' : {
+              'default' : 0,
+            },
+          },
+        },
+      },
+      'plant' : {
+        'question': 'Pick a house plant.',
+        'answers' : {
+          'a' : {
+            'content': 'plant1.jpg',
+            'points' : {
+                'default' : 0,
+            },
+          },
+          'b' : {
+            'content': 'plant2.jpg',
+            'points' : {
+                'default' : 0,
+            },
+          },
+          'c' : {
+            'content': 'plant3.jpg',
+            'points' : {
+                'default' : 0,
+            },
+          },
+          'd' : {
+            'content': 'plant4.jpg',
+            'points' : {
+                'default' : 0,
+              },
+            },
+          },
+        },
+        'staircase' : {
+          'question': 'This staircase leads to heaven:',
+          'answers' : {
+            'a' : {
+              'content': 'staircase1.jpg',
+              'points' : {
+                  'default' : 0,
+              },
+            },
+            'b' : {
+              'content': 'staircase2.jpg',
+              'points' : {
+                  'default' : 0,
+              },
+            },
+            'c' : {
+              'content': 'staircase3.jpg',
+              'points' : {
+                  'default' : 0,
+              },
+            },
+            'd' : {
+              'content': 'staircase4.jpg',
+              'points' : {
+                  'default' : 0,
         },
       },
     },
