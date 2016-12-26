@@ -1,5 +1,5 @@
 var order = [
-  //'steve','bugs'
+  // 'steve','bugs'
 ];
 
 var questions = {
@@ -40,30 +40,30 @@ var questions = {
     },
   },
   'bugs' : {
-    'question': 'pretend it is candy',
+    'question': 'which outfit would you wear?',
     'answers' : {
       'a' : {
-        'content': 'bug1.jpg',
+        'content': 'bug14.jpg',
         'points' : {
             'default' : 0,
             'white' : 1,
         },
       },
       'b' : {
-        'content': 'bug6.jpg',
+        'content': 'bug15.jpg',
         'points' : {
             'default' : 0,
             'red' : 1,
         },
       },
       'c' : {
-        'content': 'bug13.jpg',
+        'content': 'bug18.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'd' : {
-        'content': 'bug8.jpg',
+        'content': 'bug3.jpg',
         'points' : {
             'default' : 0,
         },
@@ -71,57 +71,28 @@ var questions = {
     },
   },
   'tourism' : {
-    'question': 'which activity seems least enjoyable?',
+    'question': 'which experience will clear your mind?',
     'answers' : {
       'a' : {
-        'content': 'tourist12.jpg',
+        'content': 'free4.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'b' : {
-        'content': 'tourist9.jpg',
+        'content': 'free1.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'c' : {
-        'content': 'tourist7.jpg',
+        'content': 'free2.jpg',
         'points' : {
             'default' : 0,
         },
       },
       'd' : {
-        'content': 'tourist13.jpg',
-        'points' : {
-            'default' : 0,
-        },
-      },
-    },
-  },
-  'yoga' : {
-    'question': 'who is the best poser?',
-    'answers' : {
-      'a' : {
-        'content': 'pose4.jpg',
-        'points' : {
-            'default' : 0,
-        },
-      },
-      'b' : {
-        'content': 'pose5.jpg',
-        'points' : {
-            'default' : 0,
-        },
-      },
-      'c' : {
-        'content': 'pose6.jpg',
-        'points' : {
-            'default' : 0,
-        },
-      },
-      'd' : {
-        'content': 'pose3.jpg',
+        'content': 'free5.jpg',
         'points' : {
             'default' : 0,
         },
@@ -138,7 +109,7 @@ var questions = {
         },
       },
       'b' : {
-        'content': 'protest23.jpg',
+        'content': 'protest6.jpg',
         'points' : {
             'default' : 0,
         },
@@ -150,7 +121,7 @@ var questions = {
         },
       },
       'd' : {
-        'content': 'protest5.jpg',
+        'content': 'protest7.jpg',
         'points' : {
             'default' : 0,
         },
@@ -158,7 +129,7 @@ var questions = {
     },
   },
   'cookie' : {
-    'question': 'which candidate is most qualified to lead a nation?',
+    'question': 'which candidate should lead the nation?',
     'answers' : {
       'a' : {
         'content': 'cookie1.jpg',
@@ -180,6 +151,210 @@ var questions = {
       },
       'd' : {
         'content': 'cookie4.jpg',
+        'points' : {
+            'default' : 0,
+            'yellow' : 1,
+        },
+      },
+    },
+  },
+  'fruit' : {
+    'question': 'which one actually tastes like fruit?',
+    'answers' : {
+      'a' : {
+        'content': 'fruit11.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'fruit2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'fruit14.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'fruit13.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'worst' : {
+    'question': 'what is the worst?',
+    'answers' : {
+      'a' : {
+        'content': 'worst1.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'worst2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'worst3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'worst.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'hack' : {
+    'question': 'which lifehack is most useful to you?',
+    'answers' : {
+      'a' : {
+        'content': 'lifehack3.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'lifehack1.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'lifehack5.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'lifehack6.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'poo' : {
+    'question': 'which neighbor do you try to avoid?',
+    'answers' : {
+      'a' : {
+        'content': 'poo1.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'poo2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'poo3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'poo4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'celebs' : {
+    'question': 'who do you believe is still alive, out there in the universe, making humanity great again?',
+    'answers' : {
+      'a' : {
+        'content': 'celeb8.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'celeb10.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'celeb9.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'celeb6.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'crowd' : {
+    'question': 'what is your kind of crowd?',
+    'answers' : {
+      'a' : {
+        'content': 'crowd5.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'crowd9.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'crowd10.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'crowd8.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
+  'riot' : {
+    'question': 'in which cultural event would you participate?',
+    'answers' : {
+      'a' : {
+        'content': 'riot5.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'riot4.jpg',
+        'points' : {
+          'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'protest9.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'riot2.jpg',
         'points' : {
             'default' : 0,
         },

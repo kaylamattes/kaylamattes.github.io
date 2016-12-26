@@ -20,11 +20,11 @@
             id = i;
           }
           var Q = questions[id];
+          console.log(i);
           $('#container').append('<h2>'+Q.question+'</h2>');
           $('#container').append('<div id="Q_'+id+'" class="question"></div>');
           for (var a in Q.answers){
             var A = Q.answers[a];
-            console.log(a, A);
             var img = 'img/'+A.content;
             $('#Q_'+id).append('<div id="Q_'+id+'_A_'+a+'" class="answer"></div>');
             $('#Q_'+id+'_A_'+a).append('<div id="'+id.toString()+'_'+a+'" class="square" style="background-image:url(\''+img+'\')"></div>');
