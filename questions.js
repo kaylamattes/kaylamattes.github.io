@@ -361,4 +361,33 @@ var questions = {
       },
     },
   },
+              'phenomena' : {
+    'question': 'Pick a pattern.',
+    'answers' : {
+      'a' : {
+        'content': 'phenomena.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'b' : {
+        'content': 'phenomena2.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'c' : {
+        'content': 'phenomena3.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+      'd' : {
+        'content': 'phenomena4.jpg',
+        'points' : {
+            'default' : 0,
+        },
+      },
+    },
+  },
 }
